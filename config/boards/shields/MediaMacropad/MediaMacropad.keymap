@@ -18,7 +18,7 @@
                 &kp LC(LA(U))
                 &kp LC(LA(D))
             >;
-			sensor-bindings = <&inc_dep_kp C_VOL_UP C_VOL_DOWN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DOWN>;
 		};
 
         bt_layer { /* Layer 1 */
