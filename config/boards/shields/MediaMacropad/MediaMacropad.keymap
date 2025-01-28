@@ -6,8 +6,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-/*		sensor-bindings = <&inc_dep_kp C_VOLUME_UP C_VOLUME_DOWN>; */
-
         default_layer { /* Layer 0 */
             bindings = <
 // |   | ^S | Previous | Next | Play/Pause |
@@ -30,6 +28,8 @@
                 &bt BT_SEL 0
                 &none
             >;
+		
+		sensor-bindings = <&inc_dep_kp C_VOL_UP C_VOL_DOWN>;
         };
     };
 };
