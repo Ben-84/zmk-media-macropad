@@ -2,4 +2,5 @@ if SHIELD_MEDIAMACROPAD
 
 config ZMK_KEYBOARD_NAME
 	default "MediaMacropad"
+	
 endif
